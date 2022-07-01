@@ -1,4 +1,2 @@
-h3 {
-  color: rgb(79, 20, 134);
-
-}
+@use '../utility' as c;
+.button { background-color: c.$colorGR;}

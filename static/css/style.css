@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1 {
   color: blue;
 }
@@ -42,11 +43,12 @@ h2 span::after {
   transform: rotate(-45deg);
 }
 
-h3 {
-  color: rgb(79, 20, 134);
-}
-
-/**
+/** 色の変数 ------------ **/
+/* テスト */
+/*@forward "mixins";*/
+.button {
+  background-color: #2ab733;
+} /**
 * Foundation
 * ========================== */
 /*@use 'foundation';*/
@@ -59,4 +61,5 @@ h3 {
 * ========================== */
 /*component */
 /*project */
+/*global */
 /*# sourceMappingURL=style.css.map */
