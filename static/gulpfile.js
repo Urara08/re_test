@@ -15,12 +15,14 @@ const distBase = './';
 
 const srcPath = {
   'scss': assetsBase + './scss/**/*.scss',
-  'html': srcBase + './**/*.html'
+  'html': srcBase + './**/*.html',
+  'js': assetsBase + './js/**/*.js'
 };
 
 const distPath = {
   'css': distBase + '/css/',
-  'html': distBase + '/'
+  'html': distBase + '/',
+  'js': assetsBase + '/js/'
 };
 
 /**
