@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["layout/index.scss"],"names":[],"mappings":"AAAA;AACA;AACA","file":"layout/index.css","sourcesContent":["/*@use './header';*/\r\n/*@use './main';*/\r\n/*@use './footer';*/\r\n"]}
