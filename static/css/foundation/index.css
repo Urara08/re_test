@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -56,66 +55,4 @@ table {
 .test-title {
   color: aqua;
 }
-
-h1 {
-  color: blue;
-}
-h1 span {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-h1 span::before, h1 span::after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 2px;
-  background-color: green;
-}
-h1 span::before {
-  transform: rotate(45deg);
-}
-h1 span::after {
-  transform: rotate(-45deg);
-}
-
-h2 {
-  color: rgb(255, 38, 0);
-}
-h2 span {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-h2 span::before, h2 span::after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 2px;
-  background-color: green;
-}
-h2 span::before {
-  transform: rotate(45deg);
-}
-h2 span::after {
-  transform: rotate(-45deg);
-}
-
-/** 色の変数 ------------ **/
-/* テスト */
-/*@forward "mixins";*/
-.button {
-  background-color: #2ab733;
-} /**
-* Foundation
-* ========================== */
-/**
-* Layout
-* ========================== */
-/**
-/* object
-* ========================== */
-/*component */
-/*project */
-/*global */
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */
